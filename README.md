@@ -40,7 +40,7 @@ Install requirements
 ``pip install -r requirements.txt``
 ## Usage
 
-``
+```python
   from scapetitles import ScrapeLapelGuard
   disk2 = ScrapeLapelGuard("chapter2", chapter2)
   titles = disk2.get_titles()
@@ -51,5 +51,5 @@ Install requirements
     
   for oldfile,newfile,time in zip(old,titles,duration):
       os.rename(oldfile,folder+'\\'+str(newfile)+"_"+str(time)+".mkv")``
-
+```
 
